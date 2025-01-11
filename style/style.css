@@ -222,7 +222,7 @@ main {
   margin-top: 50px;
   text-align: center;
 }
-.donate h2{
+.section-h2-center{
   font-family: "Fira Sans", serif;
   /* font-family: bold; */
   font-size: 34px;
@@ -230,7 +230,7 @@ main {
   margin-top: 0px;
 
 }
-.donate p {
+.section-p-center {
   font-size: 14px;
   color: #0E0E0E;
   opacity: 70%;
@@ -262,3 +262,66 @@ main {
 .donate-btn{
   margin: 20px 0 0 20px;
 }
+
+/* subscribe style start here */
+
+.subscribe{
+  background-color: #C6E4D6;
+  border-radius: 18px;
+  margin-top: 40px;
+}
+.subscribe-content{
+  text-align: center;
+  padding: 60px 80px;
+}
+.email-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin: 20px 0;
+}
+.donate-input{
+  width: 400px;
+  padding: 12px 40px;
+  background-color: #fff;
+  border: none;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans", serif;
+  border-radius: 10px 0px 0px 10px;
+}
+.subs-btn{
+  border-radius: 0px 10px 10px 0;
+  font-family: "Fira Sans", serif;
+  border: none;
+  padding: 12px 24px;
+  background-color: #006A50;
+  color: white;
+  border: none;
+}
+.spam-aleart{
+  color: #0E0E0E;
+  opacity: 70%;
+  margin-top: 10px;
+}
+/* footer style start here */
+.footer-section{
+  text-align: center;
+  margin-top: 40px;
+  height: 20vh;
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+.footer-heading{
+  margin-top: 30px;
+}
+footer hr {
+  width: 600px;
+  margin: 0 auto;
+  opacity: 50%;
+  margin-top: 20px;
+}
+ .footer-icon{
+  margin: 30px;
+ }
