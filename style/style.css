@@ -107,9 +107,6 @@ main {
 /* vision section style start here */
 
 
-/* .vision-card > div {
-  margin-left: 10px ;
-} */
 
 .vision-card{
   display: flex;
@@ -117,41 +114,59 @@ main {
   
   
 }
-.vision-card-1 h3, .vision-card-2 h3, .vision-card-3 h3{
-  font-weight: bold;
-  font-size: 20px;
-  color: #0E0E0E;
-  opacity: 80%;
-  margin-top: 20px;
-}
-.vision-card-1 p, .vision-card-2 p, .vision-card-3 p{
-  font-size: 14px;
-  color: #0E0E0E;
-  opacity: 70%;
-  margin: 20px 0;
-}
-.vision-card-1{
-  /* width: 30%; */
-  background-color: rgba(84, 144, 245, 0.2);
-  /* padding: 26px 26px; */
-  border-radius: 16px;
-  margin-right: 20px;
-  }
+.card-style{
 
-.vision-card-2{
-  /* width: 30%; */
+}
+
+.card1 img, h3, p, button {
+  margin: 20px;
+}
+.card2 img, h3, p, button {
+  margin: 27px;
+}
+.card3 img, h3, p, button {
+  margin: 20px;
+}
+.card1{
+  background-color: rgba(84, 144, 245, 0.2);
+  width: 30%;
+  
+}
+.card1 button{
+  background-color: #5490F5;
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.card2{
   background-color: #C6E4D6;
-  /* padding: 26px 26px; */
-  border-radius: 16px;
-  margin-right: 20px;
-  /* margin: 0 10px; */
+  width: 30%;
+  
 }
-.vision-card-3{
-  /* width: 30%; */
+.card2 button{
+  margin-top: 20px;
+  background-color: #09A15C;
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+.card3{
   background-color: #F7EBCF;
-  /* padding: 26px 26px; */
-  border-radius: 16px;
+  width: 30%;
+  
 }
+.card3 button{
+  
+  background-color: #FFC239;
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+
+
+
 /* news section start here */
 .news-block{
   background-color: #FFFFFF;
@@ -198,4 +213,52 @@ main {
   flex-direction: row-reverse;
   padding: 36px 36px;
   margin-top: 15px;
+}
+.img-gap{
+  margin-left: 30px;
+}
+/* Donate section style start here */
+.donate{
+  margin-top: 50px;
+  text-align: center;
+}
+.donate h2{
+  font-family: "Fira Sans", serif;
+  /* font-family: bold; */
+  font-size: 34px;
+  color: #0E0E0E;
+  margin-top: 0px;
+
+}
+.donate p {
+  font-size: 14px;
+  color: #0E0E0E;
+  opacity: 70%;
+  margin: 20px 0;
+}
+
+.donate-amount button{
+ padding: 36px 40px;
+ border: none;
+ background-color: #fff;
+ margin: 20px 10px;
+ border-radius: 16px;
+ font-weight: bold;
+ font-size: 30px;
+ color: #0E0E0E;
+ opacity: 80%;
+}
+.donate-amount  .active-bg{
+  background-color: #C6E4D6;
+}
+.local-amount{
+  width: 80%;
+  padding: 16px 30px;
+  text-align: center;
+  border: none;
+  color: rgba(14, 14, 14, 0.2);
+  font-family: "Fira Sans", serif;
+}
+.donate-btn{
+  margin: 20px 0 0 20px;
 }
